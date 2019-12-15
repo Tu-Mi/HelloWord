@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">calcuator</string>
+    <string-array name="sys">
+        <item>二进制</item>
+        <item>八进制</item>
+        <item>十进制</item>
+        <item>十六进制</item>
+    </string-array>
+    <string-array name="rate">
+        <item>人民币</item>
+        <item>美元</item>
+        <item>欧元</item>
+        <item>日元</item>
+    </string-array>
+    <string-array name="length">
+        <item>米</item>
+        <item>分米</item>
+        <item>厘米</item>
+        <item>毫米</item>
+    </string-array>
+    <string-array name="area">
+        <item>平方千米</item>
+        <item>公顷</item>
+        <item>平方米</item>
+        <item>平方分米</item>
+
+    </string-array>
+    <string-array name="v">
+        <item>立方米</item>
+        <item>立方分米(升)</item>
+        <item>立方厘米(毫升)</item>
+    </string-array>
+    <string-array name="weight">
+        <item>毫克</item>
+        <item>克</item>
+        <item>千克</item>
+        <item>吨</item>
+    </string-array>
+</resources>

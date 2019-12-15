@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint=""
+        android:ems="10"
+        android:gravity="center_vertical|right"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        style="@style/EditTextStyle"
+        />
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/s1"
+        android:entries="@array/sys"
+        android:layout_toRightOf="@id/e1"
+        >
+    </Spinner>
+
+</LinearLayout>
